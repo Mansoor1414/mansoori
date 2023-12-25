@@ -1,0 +1,384 @@
+/* css login submit button font family sens serif */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+  /* sign in text font google */
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Open+Sans&display=swap');
+
+   @font-face {
+    font-family: myFont;
+    src: url(urbanest_fonts/static/Urbanist-Italic.ttf);
+   }
+
+.btn btn-warning{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.form-group{
+    font-family: 'Jost', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+#login{
+    background-color: green;
+    color: whitesmoke;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    background-color: rgb(186, 19, 164);
+    /* width: 70vw; */
+    width: 1000px;
+  border-radius: 10px;
+  font-family: 'Jost', sans-serif;
+font-family: 'Open Sans', sans-serif;
+/* height: 85vh; */
+height: 550px;
+overflow: hidden;
+padding-top: 30px;
+}
+
+h1{
+    /* color: rgb(238, 228, 228); */
+    color: #ffffff;
+
+    font-family: 'Jost', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.he{
+    color: #000;
+    font-weight: 300;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.animate ol li{
+    list-style: none;
+    position: relative;
+    /* overflow: hidden; */
+    top: 0;
+   /* animation: slide 6s steps(4) infinite; */
+
+}
+
+
+
+
+
+.animate{
+    height: 50px;
+    /* background: red; */
+    overflow: hidden;
+  position: relative;
+  top: -30px;
+    text-align: center;
+}
+
+
+h2{
+    font-family: myFont;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 10px;
+    position: relative;
+    
+}
+h2::after{
+    content: "";
+    /* position: absolute; */
+    left: 0px;
+   height: 100%;
+   width: 100%;
+   
+   border-left: 2px solid #22ff00;
+   background: rgb(140, 5, 122);
+   
+   
+  }
+ 
+ 
+
+
+
+.second_container{
+  position: relative;
+  top: 100px;
+}
+.signIN,.text_Animation1{
+  color: white;
+}
+.signIN{
+  position: relative;
+  top: -50px;
+   font-size: 35px;
+}
+.text_Animation1{
+  font-size: 27px;
+  position: relative;
+  top: -10px;
+  /* background-color: red; */
+  /* color: #e36d82; */
+}
+body{
+  position: static;
+}
+.form{
+  position: relative;
+  left: -30px;
+}
+#email,#password{
+  padding: 2px;
+  font-size: 1.9rem;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+width: 500px;
+border-radius: 5px;
+padding-left: 2px;
+}
+
+.email_label,.password_label{
+  color: white;
+}
+
+.forgot{
+  cursor: pointer;
+ 
+}
+
+
+#login{
+  font-size: 2.4rem;
+position: relative;
+left: -27px;
+top: 5px;
+/* font-weight: 600; */
+width: 83px;
+  padding: 2px 10px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forgot{
+  color: rgb(248, 233, 13);
+}
+.createAccount_diloge{
+  color: rgb(248, 233, 13);
+  position: relative;
+  left: -30px;
+
+}
+
+.Create{
+  color:#22ff00;
+  position: relative;
+  left: 175px;
+  top: -30px;
+  /* border-bottom: 1px solid; */
+  text-decoration: underline;
+}
+
+.Create:hover{
+ color: white;
+ 
+}
+
+@media only screen and (max-width:1023px){
+  
+  .container{
+    width: 500px;
+  }
+
+  
+  .text_Animation1{
+    top: -5px;
+    font-size: 21.5px;
+  }
+ 
+  .signIN{
+    font-size: 3.5rem;
+  }
+  .email_label,.password_label{
+    font-size: 20px;
+  }
+  #login{
+    font-size: 2rem;
+  }
+  .signIN{
+    font-size: 27px;
+  }
+  #email,#password{
+  font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width:768px){
+
+
+.container{
+  border: solid rgb(186, 19, 164);
+  width: 600px;
+  box-sizing: border-box;
+}
+#email,#password{
+  width: 300px;
+  font-size: 1.3rem;
+  
+}
+.form{
+position: relative;
+top: -20px;
+ }
+.text_Animation1{
+  font-size: 21px;
+}
+.animate{
+  height: 64px;
+}
+#login{
+  font-size: 1.8rem;
+  top: -10px;
+  text-align: center;
+}
+.email_label,.password_label{
+  font-size: 20px;
+}
+}
+
+
+@media only screen and (max-width:577px){
+
+.container{
+  width: 477px;
+}
+.text_Animation1{
+  font-size: 18px;
+}
+
+}
+
+@media only screen and (max-width:503px){
+.container{
+  width: 377px;
+}
+.email_label,.password_label{
+  font-size: 18px;
+}
+.form{
+  left: 10px;
+}
+#login{
+  font-size: 1.7rem;
+  left: 10px;
+}
+/* .forgot{
+
+}
+.createAccount_diloge{
+
+} */
+.Create{
+  /* font-size: 1.6rem; */
+  /* font-weight: 600; */
+  position: relative;
+left: 165px;
+}
+.text_Animation1{
+  top: -2px;
+}
+}
+
+
+@media only screen and (max-width:437px){
+
+.container{
+  width: 330px;
+}
+#email,#password{
+width: 250px;
+}
+}
+
+@media only screen and (max-width:437px){
+.container{
+  width: 310px;
+}
+.animate{
+  /* background-color: red; */
+  height: 75px;
+}
+.text_Animation1{
+  top: -10px;
+}
+}
+
+@media only screen and (max-width:327px){
+  .container{
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width:307px){
+ 
+  .container{
+    width: 280px;
+  }
+  #email,#password{
+    width: 210px;
+  }
+  .forgot{
+font-size: 1.8rem;
+position: relative;
+top: 13px;
+}
+.createAccount_diloge{
+  font-size: 1.8rem;
+
+}
+}
+@media only screen and (max-width:293px){
+   .container{
+    width: 260px;
+   }
+
+}
+
+@media only screen and (max-width:269px){
+  .container{
+    width: 240px;
+   }
+  .animate{
+    height: 90px;
+  }
+  #email,#password{
+    width: 190px;
+  }
+  .forgot{
+    font-size: 1.7rem;
+
+  }
+.createAccount_diloge{
+  font-size: 1.7rem;
+}
+.Create{
+  position: relative;
+  left: 155px;
+  font-size: 1.7rem;
+
+}
+}
